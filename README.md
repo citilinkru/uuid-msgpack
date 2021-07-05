@@ -54,9 +54,9 @@ go test -v -race ./...
 
 Run linter:
 ```bash
-go mod vendor && 
-  docker run --rm -v $(pwd):/app -w /app golangci/golangci-lint:v1.40 golangci-lint run -v && 
-  rm -R vendor
+go mod vendor \
+  && docker run --rm -v $(pwd):/app -w /app golangci/golangci-lint:v1.40 golangci-lint run -v \
+  && rm -R vendor
 ```
 
 CONTRIBUTE
