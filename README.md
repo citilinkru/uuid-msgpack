@@ -4,7 +4,7 @@ Library to integrate github.com/google/uuid with gopkg.in/vmihailenco/msgpack
 
 Installation
 ------------
-	go get github.com/citilinkru/camunda-client-go/v2
+	go get github.com/citilinkru/uuid-msgpack
 
 Example
 -------
@@ -12,7 +12,7 @@ Example
 package main
 
 import (
-	_ "code.citik.ru/gobase/uuid-msgpack" // Обязательно нужно сделать импорт!
+	_ "github.com/citilinkru/uuid-msgpack" // This blank import is required to register encoder/decoder!
 	"github.com/google/uuid"
 	"log"
 	"bytes"
