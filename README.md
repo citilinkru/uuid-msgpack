@@ -1,4 +1,13 @@
 # UUID msgpack
+
+![Lint](https://github.com/citilinkru/uuid-msgpack/actions/workflows/golangci-lint.yml/badge.svg?branch=master)
+![Tests](https://github.com/citilinkru/uuid-msgpack/actions/workflows/test.yml/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/citilinkru/uuid-msgpack/branch/master/graph/badge.svg)](https://codecov.io/gh/citilinkru/uuid-msgpack)
+[![Go Report Card](https://goreportcard.com/badge/github.com/citilinkru/uuid-msgpack)](https://goreportcard.com/report/github.com/citilinkru/uuid-msgpack)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/citilinkru/uuid-msgpack/blob/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/citilinkru/uuid-msgpack?status.svg)](https://godoc.org/github.com/citilinkru/uuid-msgpack)
+[![Release](https://img.shields.io/github/release/citilinkru/uuid-msgpack.svg?style=flat-square)](https://github.com/citilinkru/uuid-msgpack/releases/latest)
+
 Library to integrate github.com/google/uuid with gopkg.in/vmihailenco/msgpack
 
 
