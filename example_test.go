@@ -1,4 +1,4 @@
-package uuid_msgpack
+package uuidmsgpack
 
 import (
 	"bytes"

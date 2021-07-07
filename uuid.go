@@ -1,7 +1,7 @@
-// Package uuid_msgpack register msgpack encoder/decoder for uuid lib
+// Package uuidmsgpack register msgpack encoder/decoder for uuid lib
 //
 // Just import that package in your main and you can encode/decode like any struct
-package uuid_msgpack
+package uuidmsgpack
 
 import (
 	"fmt"
