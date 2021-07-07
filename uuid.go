@@ -1,3 +1,6 @@
+// Package uuid_msgpack register msgpack encoder/decoder for uuid lib
+//
+// Just import that package in your main and you can encode/decode like any struct
 package uuid_msgpack
 
 import (
@@ -8,7 +11,10 @@ import (
 	"reflect"
 )
 
+// extension id
 const extId = 2
+
+// bytes count to read to start decode
 const decodeBytesCount = 18
 
 func init() {
